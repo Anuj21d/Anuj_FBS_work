@@ -6,10 +6,7 @@ void main(){
 	firstlast(num);
 }
 void firstlast(int num){
-	int last,first =0;
-	printf("enter Num :");
-	scanf("%d",&num);
-	
+	int last,first =0;	
 	last = num % 10;
 	printf("last Is : %d \n",last);
 
